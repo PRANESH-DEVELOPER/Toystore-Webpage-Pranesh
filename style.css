@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#Navbar{
+    background-color: #e5e5e5;
+    color: white;
+    box-shadow: 5px 5px 20px black;
+}
+.navbar-brand{
+    font-family: 'Bakbak One', cursive;
+    font-size: 30px;
+    font-weight: 900;
+}
+header ul li a{
+    color: black;
+    border-bottom: 3px solid #7FFF00;
+}
+header ul li a:hover{
+    color:#7FFF00 ;
+    border-bottom: 3px solid black;
+}
+#Home{
+    background-image: url(https://image.freepik.com/free-photo/blonde-toddler-sitting-carpet-playing-with-blue-car_114579-2898.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+#Home h6{
+    color:#7FFF00 ;
+    margin-bottom:20px ;
+}
+
+#Home button a{
+    background-color: #7FFF00;
+    border-radius: 15px;
+    color: white;
+    padding: 5px 20px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+#homeContent {
+    margin-top: 35vh;
+    background-color: white;
+    border-radius: 20px;
+    padding: 50px 30px;  
+}
+#About {
+    background-color: #e5e5e5;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin-top: 100px;
+}
+#About .about{
+    padding:250px 150px;
+    text-align: center;
+}
+#About .about img{
+    width: 40px;
+    height: 40px;
+}
+#About .about h6 p{
+    color: black;
+}
+#About .about h3{
+    color:#7FFF00 ;
+}
+#Products h1{
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+#Products span{
+    color: chartreuse;
+}
+#Products .card img{
+    height:250px ;
+}
+#Products .card{
+    margin: 50px 40px;
+    text-align: center;
+    box-shadow: 5px 5px 10px black;
+}
+#Products .card:hover{
+    transform: scale(1.3);
+    background-color: #e5e5e5;
+}
+#Products .card button{
+    color: white;
+    background-color: chartreuse;
+    padding: 5px 20px;
+    border-radius: 15px;
+}
+
+#Contact h2{
+    color: chartreuse;
+    font-size: 50px;
+    font-weight: 300;
+    font-family: 'Bakbak One', cursive;
+    text-align: center;
+    margin-top: 50px;
+}
+.contactImg h1:hover{
+    color: black;
+}
+#Contact .container{
+    border: 1px solid grey;
+    border-radius:10px;
+    background-color: lavender;
+    padding: 100px;
+    text-align: center;
+    
+}
+#contactMail img{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+#contactMail h1{
+    margin-bottom: 20px;
+}
+#contactMail span{
+    color: chartreuse;
+}
+#contactMail input{
+    margin-bottom: 20px;
+    border-radius: 20px;
+}
+#contactMail button{
+    background-color: chartreuse;
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 20px;
+
+}
+#contactMail button:hover{
+    transform: scale(1.1);
+}
+#Contact h6{
+    text-align: center;
+    color: chartreuse;
+    margin: 40px 0px; 
+}
+#contactMail img:hover{
+    transform: scale(1.5);
+}
+#Contact h6:hover{
+    color: black;
+    text-decoration: underline;
+}
+#Contact .socialid{
+    background-color: chartreuse;
+    color: white;
+    width: 100%;
+    padding: 20px 20px;
+    text-align: center;
+}
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+}
+    
